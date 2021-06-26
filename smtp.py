@@ -19,8 +19,8 @@ msg['From'] = 'brad@sandbox3fe2641695ac44f8887754cdc669e099.mailgun.org'
 msg['To'] = 'dolev146@gmail.com'
 msg['Subject'] = 'Just A Test'
 
-with open('message.txt', 'r') as f:
-    message = f.read()
+
+message = 'Hello Word! This is a mail sent with Python! Kind regards! Dolev. '
 
 msg.attach(MIMEText(message, 'plain'))
 
